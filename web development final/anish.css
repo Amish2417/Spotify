@@ -45,8 +45,7 @@ nav ul li{
 
 }
 .bottom{
-    position: sticky;
-    height: 130px;
+    height: 300px;
     background-color: black;
     bottom: 0;
     color: white;
@@ -54,16 +53,20 @@ nav ul li{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 400px;
 
 }
 .icons{
     margin-top: 14px;
 }
 .icons i{
+    margin: 6px;
     cursor: pointer;
+    font-size: xx-large;
 }
 myProgressBar{
-    width: 200vw; 
+    width: 200vw;
+    cursor: pointer; 
 }
 .songItemcontainer{
     margin-top: 74px;
@@ -81,8 +84,5 @@ myProgressBar{
 .timestamp{
     margin: 0 23px;
 }
-.songsInfo{
-    position: absolute;
-    left: 0;
 
-}
+
